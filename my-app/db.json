@@ -1,19 +1,416 @@
 {
-  "posts": [
+  "movies": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "Title": "Guardians of the Galaxy",
+      "Year": "2015–2019",
+      "Rated": "TV-Y7",
+      "Released": "26 Jul 2015",
+      "Runtime": "22 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "N/A",
+      "Writer": "Dan Abnett, Andy Lanning, Marty Isenberg",
+      "Actors": "Kevin Michael Richardson, Vanessa Marshall, David Sobolov",
+      "Plot": "The adventures of a band of space warriors who work to protect the universe from the evil overlord Thanos.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "2 wins & 2 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDM4NDQxMDU2MV5BMl5BanBnXkFtZTgwMDY2MDQ5NjE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.3",
+      "imdbVotes": "2,885",
+      "imdbID": "tt4176370",
+      "Type": "series",
+      "totalSeasons": "3",
+      "Response": "True"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "Title": "Luca",
+      "Year": "2021",
+      "Rated": "PG",
+      "Released": "18 Jun 2021",
+      "Runtime": "95 min",
+      "Genre": "Animation, Adventure, Comedy",
+      "Director": "Enrico Casarosa",
+      "Writer": "Enrico Casarosa, Jesse Andrews, Simon Stephenson",
+      "Actors": "Jacob Tremblay, Jack Dylan Grazer, Emma Berman",
+      "Plot": "On the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.",
+      "Language": "English, Italian",
+      "Country": "United States",
+      "Awards": "1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "71/100"
+        }
+      ],
+      "Metascore": "71",
+      "imdbRating": "7.5",
+      "imdbVotes": "95,460",
+      "imdbID": "tt12801262",
+      "Type": "movie",
+      "DVD": "18 Jun 2021",
+      "BoxOffice": "N/A",
+      "Production": "Pixar Animation Studios, Walt Disney Pictures",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Malignant",
+      "Year": "2021",
+      "Rated": "R",
+      "Released": "10 Sep 2021",
+      "Runtime": "111 min",
+      "Genre": "Crime, Drama, Horror",
+      "Director": "James Wan",
+      "Writer": "Ingrid Bisu, James Wan, Akela Cooper",
+      "Actors": "Annabelle Wallis, Maddie Hasson, George Young",
+      "Plot": "Madison is paralyzed by shocking visions of grisly murders, and her torment worsens as she discovers that these waking dreams are in fact terrifying realities.",
+      "Language": "English",
+      "Country": "United States, China, Romania",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTc0NWIwOTYtNzEwYi00YmUyLTlmYWYtYjJiZjRjN2RjMjAxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt3811906",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Barry Lyndon",
+      "Year": "1975",
+      "Rated": "PG",
+      "Released": "18 Dec 1975",
+      "Runtime": "185 min",
+      "Genre": "Adventure, Drama, History",
+      "Director": "Stanley Kubrick",
+      "Writer": "Stanley Kubrick, William Makepeace Thackeray",
+      "Actors": "Ryan O'Neal, Marisa Berenson, Patrick Magee",
+      "Plot": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.",
+      "Language": "English, German, French",
+      "Country": "United Kingdom, United States",
+      "Awards": "Won 4 Oscars. 19 wins & 15 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmY0MWY2NDctZDdmMi00MjA1LTk0ZTQtZDMyZTQ1NTNlYzVjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "89/100"
+        }
+      ],
+      "Metascore": "89",
+      "imdbRating": "8.1",
+      "imdbVotes": "157,137",
+      "imdbID": "tt0072684",
+      "Type": "movie",
+      "DVD": "18 Aug 2008",
+      "BoxOffice": "N/A",
+      "Production": "Hawk Films, Peregrine",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Lighthouse",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "01 Nov 2019",
+      "Runtime": "109 min",
+      "Genre": "Drama, Fantasy, Horror",
+      "Director": "Robert Eggers",
+      "Writer": "Robert Eggers, Max Eggers",
+      "Actors": "Robert Pattinson, Willem Dafoe, Valeriia Karaman",
+      "Plot": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
+      "Language": "English",
+      "Country": "Canada, United States, Brazil",
+      "Awards": "Nominated for 1 Oscar. 34 wins & 135 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "83/100"
+        }
+      ],
+      "Metascore": "83",
+      "imdbRating": "7.5",
+      "imdbVotes": "165,560",
+      "imdbID": "tt7984734",
+      "Type": "movie",
+      "DVD": "18 Oct 2019",
+      "BoxOffice": "$10,867,104",
+      "Production": "Harbor Picture Company, A24, Topsail Entertainment, RT Features",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "CODA",
+      "Year": "2021",
+      "Rated": "PG-13",
+      "Released": "13 Aug 2021",
+      "Runtime": "111 min",
+      "Genre": "Drama, Music",
+      "Director": "Sian Heder",
+      "Writer": "Sian Heder, Victoria Bedos, Stanislas Carré de Malberg",
+      "Actors": "Emilia Jones, Marlee Matlin, Troy Kotsur",
+      "Plot": "As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family's fishing business is threatened, Ruby finds herself torn between pursuing her love of music and her fear of abandoning her parents.",
+      "Language": "American Sign , English",
+      "Country": "United States, France",
+      "Awards": "5 wins",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGNmMzJjMTItODA0OC00ZWM0LWJmMTctMDg3MzM2M2Y5NTIyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "75/100"
+        }
+      ],
+      "Metascore": "75",
+      "imdbRating": "8.1",
+      "imdbVotes": "10,563",
+      "imdbID": "tt10366460",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Year": "2001",
+      "Rated": "PG-13",
+      "Released": "19 Dec 2001",
+      "Runtime": "178 min",
+      "Genre": "Action, Adventure, Drama",
+      "Director": "Peter Jackson",
+      "Writer": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
+      "Actors": "Elijah Wood, Ian McKellen, Orlando Bloom",
+      "Plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "Language": "English, Sindarin",
+      "Country": "New Zealand, United States",
+      "Awards": "Won 4 Oscars. 120 wins & 126 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "92/100"
+        }
+      ],
+      "Metascore": "92",
+      "imdbRating": "8.8",
+      "imdbVotes": "1,721,858",
+      "imdbID": "tt0120737",
+      "Type": "movie",
+      "DVD": "06 Aug 2002",
+      "BoxOffice": "$315,710,750",
+      "Production": "New Line Cinema, WingNut Films, Saul Zaentz Company",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Apocalypse Now",
+      "Year": "1979",
+      "Rated": "R",
+      "Released": "15 Aug 1979",
+      "Runtime": "147 min",
+      "Genre": "Drama, Mystery, War",
+      "Director": "Francis Ford Coppola",
+      "Writer": "John Milius, Francis Ford Coppola, Michael Herr",
+      "Actors": "Martin Sheen, Marlon Brando, Robert Duvall",
+      "Plot": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+      "Language": "English, French, Vietnamese",
+      "Country": "United States",
+      "Awards": "Won 2 Oscars. 21 wins & 32 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "94/100"
+        }
+      ],
+      "Metascore": "94",
+      "imdbRating": "8.4",
+      "imdbVotes": "626,792",
+      "imdbID": "tt0078788",
+      "Type": "movie",
+      "DVD": "18 May 2010",
+      "BoxOffice": "$83,471,511",
+      "Production": "Zoetrope Studios",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "154 min",
+      "Genre": "Crime, Drama",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "Plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "Language": "English, Spanish, French",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 70 wins & 75 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "94/100"
+        }
+      ],
+      "Metascore": "94",
+      "imdbRating": "8.9",
+      "imdbVotes": "1,897,762",
+      "imdbID": "tt0110912",
+      "Type": "movie",
+      "DVD": "20 Aug 2002",
+      "BoxOffice": "$107,928,762",
+      "Production": "Miramax Films, A Band Apart, Jersey Films",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "Rated": "PG-13",
+      "Released": "18 Jul 2008",
+      "Runtime": "152 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
+      "Actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "Plot": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "Language": "English, Mandarin",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 2 Oscars. 159 wins & 163 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "9.0",
+      "imdbVotes": "2,403,192",
+      "imdbID": "tt0468569",
+      "Type": "movie",
+      "DVD": "09 Dec 2008",
+      "BoxOffice": "$534,858,444",
+      "Production": "Syncopy",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Get Out",
+      "Year": "2017",
+      "Rated": "R",
+      "Released": "24 Feb 2017",
+      "Runtime": "104 min",
+      "Genre": "Horror, Mystery, Thriller",
+      "Director": "Jordan Peele",
+      "Writer": "Jordan Peele",
+      "Actors": "Daniel Kaluuya, Allison Williams, Bradley Whitford",
+      "Plot": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+      "Language": "English",
+      "Country": "United States, Japan",
+      "Awards": "Won 1 Oscar. 149 wins & 206 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "85/100"
+        }
+      ],
+      "Metascore": "85",
+      "imdbRating": "7.7",
+      "imdbVotes": "525,437",
+      "imdbID": "tt5052448",
+      "Type": "movie",
+      "DVD": "09 May 2017",
+      "BoxOffice": "$176,040,665",
+      "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
+      "Website": "N/A",
+      "Response": "True"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
