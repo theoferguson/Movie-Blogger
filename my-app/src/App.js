@@ -1,10 +1,13 @@
+import {useState, useEffect} from 'react'
 import './App.css';
 import MovieContainer from './MovieContainer'
 
 function App() {
+
+  
   return (
     <div className="App">
-      <MovieContainer />
+      <MovieContainer movies={movies} />
     </div>
   );
 }
