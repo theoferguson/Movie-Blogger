@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Movie-Blogger/static/css/main.a617e044.chunk.css",
+    "main.js": "/Movie-Blogger/static/js/main.fc3a415a.chunk.js",
+    "main.js.map": "/Movie-Blogger/static/js/main.fc3a415a.chunk.js.map",
+    "runtime-main.js": "/Movie-Blogger/static/js/runtime-main.3f7d2461.js",
+    "runtime-main.js.map": "/Movie-Blogger/static/js/runtime-main.3f7d2461.js.map",
+    "static/js/2.e01eb256.chunk.js": "/Movie-Blogger/static/js/2.e01eb256.chunk.js",
+    "static/js/2.e01eb256.chunk.js.map": "/Movie-Blogger/static/js/2.e01eb256.chunk.js.map",
+    "static/js/3.d2540457.chunk.js": "/Movie-Blogger/static/js/3.d2540457.chunk.js",
+    "static/js/3.d2540457.chunk.js.map": "/Movie-Blogger/static/js/3.d2540457.chunk.js.map",
+    "index.html": "/Movie-Blogger/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/Movie-Blogger/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.e01eb256.chunk.js.LICENSE.txt": "/Movie-Blogger/static/js/2.e01eb256.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Movie-Blogger/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f7d2461.js",
+    "static/js/2.e01eb256.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.fc3a415a.chunk.js"
+  ]
+}
