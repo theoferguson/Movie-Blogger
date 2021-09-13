@@ -1,5 +1,5 @@
 
-function Card({movie}) {
+function Card() {
     return (
         <div>
             

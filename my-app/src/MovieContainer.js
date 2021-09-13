@@ -1,16 +1,16 @@
 import Card from './Card'
 
-function MovieContainer({movies}) {
+function MovieContainer() {
 
-    const movieList = movies.map(movie => {
-        return (
-            <Card movie={movie} />
-        )
-    })
+    // const movieList = movies.map(movie => {
+    //     return (
+    //         <Card  />
+    //     )
+    // })
     
     return (
         <>
-            {movieList}
+            {/* {movieList} */}
         </>
     )
 }
