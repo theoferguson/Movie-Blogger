@@ -39,7 +39,7 @@
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": true
+      "favoriteMovie": false
     },
     {
       "Title": "Luca",
@@ -146,8 +146,7 @@
       "BoxOffice": "N/A",
       "Production": "Hawk Films, Peregrine",
       "Website": "N/A",
-      "Response": "True",
-      "favoriteMovie": true
+      "Response": "True"
     },
     {
       "Title": "The Lighthouse",
@@ -424,8 +423,7 @@
       "BoxOffice": "$176,040,665",
       "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
       "Website": "N/A",
-      "Response": "True",
-      "favoriteMovie": false
+      "Response": "True"
     }
   ]
 }
