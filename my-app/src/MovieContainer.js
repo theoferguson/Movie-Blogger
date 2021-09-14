@@ -1,15 +1,20 @@
 import Card from './Card'
 
 
-function MovieContainer({movies}) {
+function MovieContainer({ movies, issueRequest, setIssueRequest }) {
 
 
     const movieList = movies.map(movie => {
         return (
-            <Card  movie={movie}/>
+            <Card
+                key={movie.id}
+                movie={movie}
+                issueRequest={issueRequest}
+                setIssueRequest={setIssueRequest}
+            />
         )
     })
-    
+
     return (
         <div className="card-columns">
             {movieList}

@@ -5,18 +5,18 @@ import NavBar from './NavBar';
 import MyMovies from './MyMovies';
 import ReviewList from './ReviewList';
 import NewReview from './NewReview';
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
   const [displayMovies, setDisplayMovies] = useState([]);
-const [issueRequest, setIssueRequest] = useState(false);
+  const [issueRequest, setIssueRequest] = useState(false);
 
   useEffect(() => {
-      fetch('http://localhost:3000/movies')
+    fetch('http://localhost:3000/movies')
       .then(res => res.json())
       .then(json => {
-          setDisplayMovies(() => json)
-          console.log(json)
+        setDisplayMovies(() => json)
+        console.log(json)
       })
   }, [issueRequest])
 
@@ -25,7 +25,11 @@ const [issueRequest, setIssueRequest] = useState(false);
       <NavBar />
       <Switch>
         <Route path="/Movie-Blogger">
-          <MovieContainer movies={displayMovies}/>
+          <MovieContainer
+            movies={displayMovies}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
+          />
         </Route>
 
         <Route exact path="/reviews">
@@ -38,7 +42,11 @@ const [issueRequest, setIssueRequest] = useState(false);
         </Route>
 
         <Route exact path="/my-movies">
-          <MyMovies />
+          <MyMovies
+            movies={displayMovies}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
+          />
         </Route>
       </Switch>
 

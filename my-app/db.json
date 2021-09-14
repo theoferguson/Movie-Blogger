@@ -16,30 +16,31 @@
       "Awards": "Won 4 Oscars. 42 wins & 51 nominations total",
       "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
       "Ratings": [
-          {
-              "Source": "Internet Movie Database",
-              "Value": "8.7/10"
-          },
-          {
-              "Source": "Rotten Tomatoes",
-              "Value": "88%"
-          },
-          {
-              "Source": "Metacritic",
-              "Value": "73/100"
-          }
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
       ],
       "Metascore": "73",
       "imdbRating": "8.7",
       "imdbVotes": "1,748,071",
-      "imdbID": "tt0133093",
+      "id": "tt0133093",
       "Type": "movie",
       "DVD": "15 May 2007",
       "BoxOffice": "$171,479,930",
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
-      "Response": "True"
-  },
+      "Response": "True",
+      "favoriteMovie": true
+    },
     {
       "Title": "Luca",
       "Year": "2021",
@@ -72,7 +73,7 @@
       "Metascore": "71",
       "imdbRating": "7.5",
       "imdbVotes": "95,460",
-      "imdbID": "tt12801262",
+      "id": "tt12801262",
       "Type": "movie",
       "DVD": "18 Jun 2021",
       "BoxOffice": "N/A",
@@ -99,7 +100,7 @@
       "Metascore": "N/A",
       "imdbRating": "N/A",
       "imdbVotes": "N/A",
-      "imdbID": "tt3811906",
+      "id": "tt3811906",
       "Type": "movie",
       "DVD": "N/A",
       "BoxOffice": "N/A",
@@ -139,13 +140,14 @@
       "Metascore": "89",
       "imdbRating": "8.1",
       "imdbVotes": "157,137",
-      "imdbID": "tt0072684",
+      "id": "tt0072684",
       "Type": "movie",
       "DVD": "18 Aug 2008",
       "BoxOffice": "N/A",
       "Production": "Hawk Films, Peregrine",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "favoriteMovie": true
     },
     {
       "Title": "The Lighthouse",
@@ -179,13 +181,14 @@
       "Metascore": "83",
       "imdbRating": "7.5",
       "imdbVotes": "165,560",
-      "imdbID": "tt7984734",
+      "id": "tt7984734",
       "Type": "movie",
       "DVD": "18 Oct 2019",
       "BoxOffice": "$10,867,104",
       "Production": "Harbor Picture Company, A24, Topsail Entertainment, RT Features",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "favoriteMovie": false
     },
     {
       "Title": "CODA",
@@ -215,7 +218,7 @@
       "Metascore": "75",
       "imdbRating": "8.1",
       "imdbVotes": "10,563",
-      "imdbID": "tt10366460",
+      "id": "tt10366460",
       "Type": "movie",
       "DVD": "N/A",
       "BoxOffice": "N/A",
@@ -255,7 +258,7 @@
       "Metascore": "92",
       "imdbRating": "8.8",
       "imdbVotes": "1,721,858",
-      "imdbID": "tt0120737",
+      "id": "tt0120737",
       "Type": "movie",
       "DVD": "06 Aug 2002",
       "BoxOffice": "$315,710,750",
@@ -295,7 +298,7 @@
       "Metascore": "94",
       "imdbRating": "8.4",
       "imdbVotes": "626,792",
-      "imdbID": "tt0078788",
+      "id": "tt0078788",
       "Type": "movie",
       "DVD": "18 May 2010",
       "BoxOffice": "$83,471,511",
@@ -335,7 +338,7 @@
       "Metascore": "94",
       "imdbRating": "8.9",
       "imdbVotes": "1,897,762",
-      "imdbID": "tt0110912",
+      "id": "tt0110912",
       "Type": "movie",
       "DVD": "20 Aug 2002",
       "BoxOffice": "$107,928,762",
@@ -375,7 +378,7 @@
       "Metascore": "84",
       "imdbRating": "9.0",
       "imdbVotes": "2,403,192",
-      "imdbID": "tt0468569",
+      "id": "tt0468569",
       "Type": "movie",
       "DVD": "09 Dec 2008",
       "BoxOffice": "$534,858,444",
@@ -415,13 +418,14 @@
       "Metascore": "85",
       "imdbRating": "7.7",
       "imdbVotes": "525,437",
-      "imdbID": "tt5052448",
+      "id": "tt5052448",
       "Type": "movie",
       "DVD": "09 May 2017",
       "BoxOffice": "$176,040,665",
       "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "favoriteMovie": false
     }
   ]
 }
