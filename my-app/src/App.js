@@ -33,7 +33,9 @@ function App() {
         </Route>
 
         <Route exact path="/reviews">
-          <ReviewList movies={displayMovies}/>
+          <ReviewList movies={displayMovies}
+           issueRequest={issueRequest}
+           setIssueRequest={setIssueRequest}/>
         </Route>
 
         <Route exact path="/reviews/new">
