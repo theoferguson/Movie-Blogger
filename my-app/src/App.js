@@ -33,7 +33,7 @@ function App() {
         </Route>
 
         <Route exact path="/reviews">
-          <ReviewList />
+          <ReviewList movies={displayMovies}/>
         </Route>
 
         <Route exact path="/reviews/new">
