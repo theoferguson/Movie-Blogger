@@ -5,16 +5,27 @@ import NavBar from './NavBar';
 import MyMovies from './MyMovies';
 import ReviewList from './ReviewList';
 import NewReview from './NewReview';
+import {useState, useEffect} from 'react';
 
 function App() {
-  //movies to be defined from a useEffect from local database to be populated from movie info from public API
+  const [displayMovies, setDisplayMovies] = useState([]);
+const [issueRequest, setIssueRequest] = useState(false);
+
+  useEffect(() => {
+      fetch('http://localhost:3000/movies')
+      .then(res => res.json())
+      .then(json => {
+          setDisplayMovies(() => json)
+          console.log(json)
+      })
+  }, [issueRequest])
 
   return (
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path="/">
-          <MovieContainer />
+        <Route path="/Movie-Blogger">
+          <MovieContainer movies={displayMovies}/>
         </Route>
 
         <Route exact path="/reviews">

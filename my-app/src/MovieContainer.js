@@ -1,19 +1,10 @@
 import Card from './Card'
-import {useState, useEffect} from 'react';
 
-function MovieContainer() {
-const [displayMovies, setDisplayMovies] = useState([])
 
-useEffect(() => {
-    fetch('http://localhost:3000/movies')
-    .then(res => res.json())
-    .then(json => {
-        setDisplayMovies(() => json)
-        console.log(json)
-    })
-}, [])
+function MovieContainer({movies}) {
 
-    const movieList = displayMovies.map(movie => {
+
+    const movieList = movies.map(movie => {
         return (
             <Card  movie={movie}/>
         )
