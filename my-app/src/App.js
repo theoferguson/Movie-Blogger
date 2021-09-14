@@ -29,7 +29,7 @@ const [issueRequest, setIssueRequest] = useState(false);
         </Route>
 
         <Route exact path="/reviews">
-          <ReviewList />
+          <ReviewList movies={displayMovies}/>
         </Route>
 
         <Route exact path="/reviews/new">
