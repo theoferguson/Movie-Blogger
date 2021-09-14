@@ -1,34 +1,45 @@
 {
   "movies": [
     {
-      "Title": "Guardians of the Galaxy",
-      "Year": "2015–2019",
-      "Rated": "TV-Y7",
-      "Released": "26 Jul 2015",
-      "Runtime": "22 min",
-      "Genre": "Animation, Action, Adventure",
-      "Director": "N/A",
-      "Writer": "Dan Abnett, Andy Lanning, Marty Isenberg",
-      "Actors": "Kevin Michael Richardson, Vanessa Marshall, David Sobolov",
-      "Plot": "The adventures of a band of space warriors who work to protect the universe from the evil overlord Thanos.",
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "31 Mar 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Writer": "Lilly Wachowski, Lana Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
       "Language": "English",
-      "Country": "United States",
-      "Awards": "2 wins & 2 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNDM4NDQxMDU2MV5BMl5BanBnXkFtZTgwMDY2MDQ5NjE@._V1_SX300.jpg",
+      "Country": "United States, Australia",
+      "Awards": "Won 4 Oscars. 42 wins & 51 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
       "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "7.3/10"
-        }
+          {
+              "Source": "Internet Movie Database",
+              "Value": "8.7/10"
+          },
+          {
+              "Source": "Rotten Tomatoes",
+              "Value": "88%"
+          },
+          {
+              "Source": "Metacritic",
+              "Value": "73/100"
+          }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "7.3",
-      "imdbVotes": "2,885",
-      "imdbID": "tt4176370",
-      "Type": "series",
-      "totalSeasons": "3",
+      "Metascore": "73",
+      "imdbRating": "8.7",
+      "imdbVotes": "1,748,071",
+      "imdbID": "tt0133093",
+      "Type": "movie",
+      "DVD": "15 May 2007",
+      "BoxOffice": "$171,479,930",
+      "Production": "Village Roadshow Prod., Silver Pictures",
+      "Website": "N/A",
       "Response": "True"
-    },
+  },
     {
       "Title": "Luca",
       "Year": "2021",
