@@ -20,9 +20,9 @@ useEffect(() => {
     })
     
     return (
-        <>
+        <div className="card-columns">
             {movieList}
-        </>
+        </div>
     )
 }
 
