@@ -1,7 +1,9 @@
+import {Link} from "react-router-dom";
+
 
 function Card() {
     return (
-        <div>
+        <div className="movieCard" >
             
         </div>
     )
