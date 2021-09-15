@@ -39,9 +39,12 @@
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": false,
+      "favoriteMovie": true,
       "review": "csinsijneijdiejeijiji",
+
       "starRating": "4 ⭐️"
+
+
     },
     {
       "Title": "Luca",
@@ -83,6 +86,7 @@
       "Website": "N/A",
       "Response": "True",
       "favoriteMovie": true
+
     },
     {
       "Title": "Malignant",
@@ -110,7 +114,8 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": false
+
+
     },
     {
       "Title": "Barry Lyndon",
