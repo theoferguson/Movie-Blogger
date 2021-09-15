@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled from 'styled-components'
 function Review ({issueRequest, setIssueRequest ,movie}){
-    const{Ratings, review}=movie
+    const{Ratings, review, Title, Year, Rated, Released, Genre, Director, Writer, Actors, Plot, Awards, Poster}=movie
     const [isClicked, setIsClicked] = useState(false)
     const [formData, setFormData] = useState({
         review:"",
@@ -55,7 +55,7 @@ function Review ({issueRequest, setIssueRequest ,movie}){
     <form className="review-form"> 
     <input value={formData.review} onChange={handleChange} type="text" name="review" placeholder='type here'></input>
     <button onClick={handleReview}  type="submit">Submit Review</button>
-    <label>
+    <label> Star Rating: 
         <select name="starRating" onChange={handleChange}>
             <option></option>
             <option>1 ⭐️</option>
@@ -65,6 +65,7 @@ function Review ({issueRequest, setIssueRequest ,movie}){
             <option>5 ⭐️</option>
         </select>
     </label>
+
     <label> Would you recommend this movie?
         <select name="wouldRecommend" onChange={handleChange}>
             <option></option>
@@ -73,6 +74,7 @@ function Review ({issueRequest, setIssueRequest ,movie}){
         </select>
         <span>{wouldRecommend? "Would Recommend": null }</span>
     </label>
+
     </form>
     </>;
 
@@ -109,6 +111,7 @@ function Review ({issueRequest, setIssueRequest ,movie}){
             </div>): null}
             <br>
             </br>
+
             {movie.review === undefined? null :
             <Div>
                 <p>{movie.Title}</p>
@@ -117,6 +120,7 @@ function Review ({issueRequest, setIssueRequest ,movie}){
                 <br></br>
                 
             </Div> } 
+
         </div>
         )
 }

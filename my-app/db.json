@@ -41,10 +41,10 @@
       "Response": "True",
       "favoriteMovie": true,
       "review": "csinsijneijdiejeijiji",
-      "starRating": "",
-      "HatedMovie": true,
-      "hatedMovie": true,
-      "wouldRecommend": ""
+
+      "starRating": "4 ⭐️"
+
+
     },
     {
       "Title": "Luca",
@@ -85,8 +85,8 @@
       "Production": "Pixar Animation Studios, Walt Disney Pictures",
       "Website": "N/A",
       "Response": "True",
-      "review": "",
-      "starRating": ""
+      "favoriteMovie": true
+
     },
     {
       "Title": "Malignant",
@@ -114,8 +114,8 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
-      "review": "",
-      "starRating": ""
+
+
     },
     {
       "Title": "Barry Lyndon",
