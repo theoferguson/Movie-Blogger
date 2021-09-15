@@ -81,7 +81,8 @@
       "BoxOffice": "N/A",
       "Production": "Pixar Animation Studios, Walt Disney Pictures",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "favoriteMovie": true
     },
     {
       "Title": "Malignant",
@@ -108,7 +109,8 @@
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "favoriteMovie": true
     },
     {
       "Title": "Barry Lyndon",
