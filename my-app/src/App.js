@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import MyMovies from './MyMovies';
 import ReviewList from './ReviewList';
-import NewReview from './NewReview';
+import HatedMovies from './HatedMovies';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -34,13 +34,16 @@ function App() {
 
         <Route exact path="/reviews">
           <ReviewList movies={displayMovies}
-           issueRequest={issueRequest}
-           setIssueRequest={setIssueRequest}/>
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}/>
         </Route>
 
-        <Route exact path="/reviews/new">
-          <NewReview />
-          <ReviewList />
+        <Route exact path="/hated-movies">
+          <HatedMovies 
+            movies={displayMovies}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
+            />
         </Route>
 
         <Route exact path="/my-movies">
