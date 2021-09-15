@@ -30,7 +30,8 @@ function Review ({issueRequest, setIssueRequest ,movie}){
     
     
 
-    function handleReview()  {
+    function handleReview(event)  {
+        // event.preventDefault()
         fetch(`http://localhost:3000/movies/${movie.id}`, {
             method: 'PATCH',
             headers: {
@@ -64,8 +65,13 @@ function Review ({issueRequest, setIssueRequest ,movie}){
             <option>5 ⭐️</option>
         </select>
     </label>
-    <label>
-        
+    <label> Would you recommend this movie?
+        <select name="wouldRecommend" onChange={handleChange}>
+            <option></option>
+            <option onChange={handleRecommendation}>YES</option>
+            <option onChange={handleRecommendation}>No</option>
+        </select>
+        <span>{wouldRecommend? "Would Recommend": null }</span>
     </label>
     </form>
     </>;
@@ -109,11 +115,7 @@ function Review ({issueRequest, setIssueRequest ,movie}){
                 {movie.review}
                 <span>User Ratings: {movie.starRating}'s</span>
                 <br></br>
-                <label> Would you recommend this movie?
-                    <button onClick={handleRecommendation}>Yes</button>
-                    <button onClick={handleRecommendation}>No</button>
-                    <span>{wouldRecommend? "Would Recommend": null }</span>
-                </label>
+                
             </Div> } 
         </div>
         )
