@@ -39,7 +39,7 @@
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": true,
+      "favoriteMovie": false,
       "review": "csinsijneijdiejeijiji",
       "starRating": "4 ⭐️"
     },
@@ -110,7 +110,7 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": true
+      "favoriteMovie": false
     },
     {
       "Title": "Barry Lyndon",
