@@ -1,23 +1,57 @@
-import logo from './logo.svg';
 import './App.css';
+import MovieContainer from './MovieContainer';
+import { Switch, Route } from 'react-router-dom';
+import NavBar from './NavBar';
+import MyMovies from './MyMovies';
+import ReviewList from './ReviewList';
+import NewReview from './NewReview';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [displayMovies, setDisplayMovies] = useState([]);
+  const [issueRequest, setIssueRequest] = useState(false);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/movies')
+      .then(res => res.json())
+      .then(json => {
+        setDisplayMovies(() => json)
+        console.log(json)
+      })
+  }, [issueRequest])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Switch>
+        <Route path="/Movie-Blogger">
+          <MovieContainer
+            movies={displayMovies}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
+          />
+        </Route>
+
+        <Route exact path="/reviews">
+          <ReviewList movies={displayMovies}
+           issueRequest={issueRequest}
+           setIssueRequest={setIssueRequest}/>
+        </Route>
+
+        <Route exact path="/reviews/new">
+          <NewReview />
+          <ReviewList />
+        </Route>
+
+        <Route exact path="/my-movies">
+          <MyMovies
+            movies={displayMovies}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
+          />
+        </Route>
+      </Switch>
+
     </div>
   );
 }
