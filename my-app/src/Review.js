@@ -4,17 +4,19 @@ function Review ({issueRequest, setIssueRequest ,movie}){
     const{Ratings, review}=movie
     const [isClicked, setIsClicked] = useState(false)
     const [formData, setFormData] = useState({
-        review:""
+        review:"",
+        starRating:""
+
     });
     const [toggleReview, setToggleReview] =useState(false)
+    const [wouldRecommend, setWouldRecommend] = useState(false)
     const Div = styled.div`
-    float: right!important;
-    font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 19px;
-    padding-right: 19px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
+    background: transparent;
+    border-radius: 3px;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    margin: 0 1em;
+    padding: 0.25em 1em;
     `
     
     
@@ -35,7 +37,9 @@ function Review ({issueRequest, setIssueRequest ,movie}){
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                review: formData.review
+                review: formData.review,
+                starRating: formData.starRating,
+                wouldRecommend: formData.wouldRecommend
             })
         }).then(res => res.json())
         .then(json => {
@@ -47,9 +51,22 @@ function Review ({issueRequest, setIssueRequest ,movie}){
 
     const reviewForm = 
     <>
-    <form class="review-form"> 
-    <input value={formData.review} onChange={handleChange} type="text" name="review"></input>
+    <form className="review-form"> 
+    <input value={formData.review} onChange={handleChange} type="text" name="review" placeholder='type here'></input>
     <button onClick={handleReview}  type="submit">Submit Review</button>
+    <label>
+        <select name="starRating" onChange={handleChange}>
+            <option></option>
+            <option>1 ⭐️</option>
+            <option>2 ⭐️</option>
+            <option>3 ⭐️</option>
+            <option>4 ⭐️</option>
+            <option>5 ⭐️</option>
+        </select>
+    </label>
+    <label>
+        
+    </label>
     </form>
     </>;
 
@@ -65,6 +82,9 @@ function Review ({issueRequest, setIssueRequest ,movie}){
     function displayReviewForm(){
         setToggleReview(!toggleReview)
     }
+    function handleRecommendation(){
+        setWouldRecommend(!wouldRecommend)
+    }
     
     return (
         <div className="reviews">
@@ -73,9 +93,9 @@ function Review ({issueRequest, setIssueRequest ,movie}){
                 <div className="review-body">
                     <h5 className="review-title">{movie.Title}</h5>
                     <button onClick={displayRatings}>Ratings</button>
-                    <button onClick={displayReviewForm}>Write a Review</button>
+                    <button onClick={displayReviewForm}>Watched</button>
                     {isClicked?  eachRating: null}
-
+                    
                 </div>
             </div>
             {toggleReview?(<div>
@@ -87,6 +107,13 @@ function Review ({issueRequest, setIssueRequest ,movie}){
             <Div>
                 <p>{movie.Title}</p>
                 {movie.review}
+                <span>User Ratings: {movie.starRating}'s</span>
+                <br></br>
+                <label> Would you recommend this movie?
+                    <button onClick={handleRecommendation}>Yes</button>
+                    <button onClick={handleRecommendation}>No</button>
+                    <span>{wouldRecommend? "Would Recommend": null }</span>
+                </label>
             </Div> } 
         </div>
         )
