@@ -11,12 +11,16 @@ function App() {
   const [displayMovies, setDisplayMovies] = useState([]);
   const [issueRequest, setIssueRequest] = useState(false);
   const [searchTerm, setSearchTerm] = useState('')
+  const [filter, setFilter] = useState('')
 
   useEffect(() => {
     fetch('http://localhost:3000/movies')
       .then(res => res.json())
       .then(json => {
+        handleSort(json)
+
         searchTerm ? setDisplayMovies(json.filter(movie => movie.Title.toLowerCase().includes(searchTerm.toLowerCase()))) : setDisplayMovies(json)
+
         console.log(json)
       })
   }, [issueRequest])
@@ -26,10 +30,33 @@ function App() {
     setIssueRequest(!issueRequest)
   }
 
+  function handleSort(array) {
+    if (filter) {
+      array.sort(function (a, b) {
+        const nameA = a.Title.toUpperCase(); // ignore upper and lowercase
+        const nameB = b.Title.toUpperCase(); // ignore upper and lowercase
+        if (nameA < nameB) {
+          return -1;
+        }
+        if (nameA > nameB) {
+          return 1;
+        }
+
+        // names must be equal
+        return 0;
+      })
+    }
+  };
 
   return (
     <div className="App">
-      <NavBar handleSearch={handleSearch} />
+      <NavBar
+        handleSearch={handleSearch}
+        filter={filter}
+        setFilter={setFilter}
+        issueRequest={issueRequest}
+        setIssueRequest={setIssueRequest}
+      />
       <Switch>
         <Route path="/Movie-Blogger">
           <MovieContainer
@@ -43,17 +70,17 @@ function App() {
           <ReviewList movies={displayMovies}
             issueRequest={issueRequest}
 
-            setIssueRequest={setIssueRequest}/>
+            setIssueRequest={setIssueRequest} />
 
 
         </Route>
 
         <Route exact path="/hated-movies">
-          <HatedMovies 
+          <HatedMovies
             movies={displayMovies}
             issueRequest={issueRequest}
             setIssueRequest={setIssueRequest}
-            />
+          />
         </Route>
 
         <Route exact path="/my-movies">

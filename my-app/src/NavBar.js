@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import Search from './Search';
 
-function NavBar({handleSearch}) {
+function NavBar({handleSearch, filter, setFilter, issueRequest, setIssueRequest}) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <NavLink className="navbar-brand" to="/Movie-Blogger">Home</NavLink>
@@ -11,6 +11,10 @@ function NavBar({handleSearch}) {
 
             <Search 
             handleSearch={handleSearch}
+            filter={filter}
+            setFilter={setFilter}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
             />
         </nav>
     )

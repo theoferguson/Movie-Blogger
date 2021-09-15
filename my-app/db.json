@@ -39,12 +39,10 @@
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": true,
-      "review": "csinsijneijdiejeijiji",
-
-      "starRating": "4 ⭐️"
-
-
+      "favoriteMovie": false,
+      "review": "dfasdfdsfdsa",
+      "starRating": "2 ⭐️",
+      "wouldRecommend": "YES"
     },
     {
       "Title": "Luca",
@@ -86,7 +84,6 @@
       "Website": "N/A",
       "Response": "True",
       "favoriteMovie": true
-
     },
     {
       "Title": "Malignant",
@@ -114,8 +111,7 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
-
-
+      "favoriteMovie": false
     },
     {
       "Title": "Barry Lyndon",
@@ -431,6 +427,206 @@
       "DVD": "09 May 2017",
       "BoxOffice": "$176,040,665",
       "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Do the Right Thing",
+      "Year": "1989",
+      "Rated": "R",
+      "Released": "21 Jul 1989",
+      "Runtime": "120 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Spike Lee",
+      "Writer": "Spike Lee",
+      "Actors": "Danny Aiello, Ossie Davis, Ruby Dee",
+      "Plot": "On the hottest day of the year on a street in the Bedford-Stuyvesant section of Brooklyn, everyone's hate and bigotry smolders and builds until it explodes into violence.",
+      "Language": "English, Italian, Spanish, Korean",
+      "Country": "United States",
+      "Awards": "Nominated for 2 Oscars. 21 wins & 17 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODA2MjU1NTI1MV5BMl5BanBnXkFtZTgwOTU4ODIwMjE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "93/100"
+        }
+      ],
+      "Metascore": "93",
+      "imdbRating": "8.0",
+      "imdbVotes": "95,737",
+      "id": "tt0097216",
+      "Type": "movie",
+      "DVD": "20 Feb 2001",
+      "BoxOffice": "$27,545,445",
+      "Production": "40 Acres &amp; A Mule Filmworks",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Inception",
+      "Year": "2010",
+      "Rated": "PG-13",
+      "Released": "16 Jul 2010",
+      "Runtime": "148 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "Language": "English, Japanese, French",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 157 wins & 220 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,155,810",
+      "id": "tt1375666",
+      "Type": "movie",
+      "DVD": "07 Dec 2010",
+      "BoxOffice": "$292,576,195",
+      "Production": "Syncopy, Warner Bros.",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Prestige",
+      "Year": "2006",
+      "Rated": "PG-13",
+      "Released": "20 Oct 2006",
+      "Runtime": "130 min",
+      "Genre": "Drama, Mystery, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan, Christopher Priest",
+      "Actors": "Christian Bale, Hugh Jackman, Scarlett Johansson",
+      "Plot": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "Language": "English",
+      "Country": "United Kingdom, United States",
+      "Awards": "Nominated for 2 Oscars. 6 wins & 45 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "76%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "66/100"
+        }
+      ],
+      "Metascore": "66",
+      "imdbRating": "8.5",
+      "imdbVotes": "1,241,903",
+      "id": "tt0482571",
+      "Type": "movie",
+      "DVD": "13 Feb 2007",
+      "BoxOffice": "$53,089,891",
+      "Production": "Newmarket Productions",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Alien",
+      "Year": "1979",
+      "Rated": "R",
+      "Released": "22 Jun 1979",
+      "Runtime": "117 min",
+      "Genre": "Horror, Sci-Fi",
+      "Director": "Ridley Scott",
+      "Writer": "Dan O'Bannon, Ronald Shusett",
+      "Actors": "Sigourney Weaver, Tom Skerritt, John Hurt",
+      "Plot": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+      "Language": "English",
+      "Country": "United Kingdom, United States",
+      "Awards": "Won 1 Oscar. 18 wins & 22 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "89/100"
+        }
+      ],
+      "Metascore": "89",
+      "imdbRating": "8.4",
+      "imdbVotes": "819,181",
+      "id": "tt0078748",
+      "Type": "movie",
+      "DVD": "01 Jun 1999",
+      "BoxOffice": "$81,900,459",
+      "Production": "Twentieth Century Fox, Brandywine Productions",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Training Day",
+      "Year": "2001",
+      "Rated": "R",
+      "Released": "05 Oct 2001",
+      "Runtime": "122 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Antoine Fuqua",
+      "Writer": "David Ayer",
+      "Actors": "Denzel Washington, Ethan Hawke, Scott Glenn",
+      "Plot": "A rookie cop spends his first day as a Los Angeles narcotics officer with a rogue detective who isn't what he appears to be.",
+      "Language": "English, Russian, Spanish, Korean, Greek",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 18 wins & 23 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDZkMTUxYWEtMDY5NS00ZTA5LTg3MTItNTlkZWE1YWRjYjMwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "73%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.7",
+      "imdbVotes": "407,859",
+      "id": "tt0139654",
+      "Type": "movie",
+      "DVD": "19 Mar 2002",
+      "BoxOffice": "$76,631,907",
+      "Production": "Village Roadshow Prod., NPV Entertainment",
       "Website": "N/A",
       "Response": "True"
     }
