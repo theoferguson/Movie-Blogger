@@ -1,31 +1,15 @@
 
-function Card({ movie, issueRequest, setIssueRequest, isOpen, setIsOpen }) {
+function Card({ movie, issueRequest, setIssueRequest, isOpen, setIsOpen, handleWatched }) {
 
 
-    function handleFavorite() {
+    function handleWatched() {
         fetch(`http://localhost:3000/movies/${movie.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                favoriteMovie: movie.favoriteMovie ? false : true
-            })
-        }).then(res => res.json())
-            .then(json => {
-                console.log(json)
-                setIssueRequest(!issueRequest)
-            })
-    };
-
-    function handleHated() {
-        fetch(`http://localhost:3000/movies/${movie.id}`, {
-            method: 'PATCH',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                hatedMovie: movie.hatedMovie ? false : true
+                watched: movie.watched ? false : true
             })
         }).then(res => res.json())
             .then(json => {
@@ -46,8 +30,7 @@ function Card({ movie, issueRequest, setIssueRequest, isOpen, setIsOpen }) {
                 <img className="card-img-top" src={movie.Poster} alt="movie poster" />
             </div>
             <div className="card-body">
-                <button onClick={handleFavorite} type="button" className="btn btn-primary">{movie.favoriteMovie ? "Remove from Favorites" : "Add to Favorites"} </button>
-                <button onClick={handleHated} type="button" className="btn btn-primary">{movie.hatedMovie ? "Remove from Hated" : "Add to Hated"} </button>
+                <button onClick={handleWatched} type="button" className="btn btn-primary">{movie.watched ? "Remove from Watched" : "Add to Watched"} </button>
             </div>
 
         </div>

@@ -39,10 +39,12 @@
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": true,
-      "review": "dfasdfdsfdsa",
-      "starRating": "2 ⭐️",
-      "wouldRecommend": "YES"
+      "favoriteMovie": false,
+      "review": "",
+      "starRating": "",
+      "wouldRecommend": "",
+      "hatedMovie": false,
+      "watched": true
     },
     {
       "Title": "Luca",
@@ -228,7 +230,11 @@
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "watched": true,
+      "review": "well well well mr powers",
+      "starRating": "",
+      "wouldRecommend": ""
     },
     {
       "Title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -428,7 +434,8 @@
       "BoxOffice": "$176,040,665",
       "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "watched": false
     },
     {
       "Title": "Do the Right Thing",

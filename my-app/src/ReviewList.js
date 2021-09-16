@@ -1,16 +1,21 @@
 import Review from "./Review"
-function ReviewList({issueRequest, setIssueRequest ,movies}) {
-    const eachReview = movies.map(movie=> (
-        <Review
-        key={movie.Title}
-        movie={movie}
-        issueRequest={issueRequest}
-        setIssueRequest={setIssueRequest}
-        />
-    ))
+
+function ReviewList({ issueRequest, setIssueRequest, movies }) {
+    const eachReview = movies.map(movie => {
+        if (movie.watched) {
+            return (
+                <Review
+                    key={movie.Title}
+                    movie={movie}
+                    issueRequest={issueRequest}
+                    setIssueRequest={setIssueRequest}
+                />
+            )
+        }
+    })
     return (
         <>
-        {eachReview}
+            {eachReview}
         </>
     )
 };

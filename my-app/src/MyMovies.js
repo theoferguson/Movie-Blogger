@@ -3,7 +3,7 @@ import Card from './Card';
 function MyMovies({ movies, issueRequest, setIssueRequest }) {
 
     const favoriteMovies = movies.map(movie => { 
-        if (movie.favoriteMovie) {
+        if (movie.wouldRecommend === "YES") {
         return (
             <Card
                 key={movie.id}
