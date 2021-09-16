@@ -1,9 +1,6 @@
-import { useState } from "react"
-import CardDetails from "./CardDetails"
-import { Link } from 'react-router-dom';
 
-function Card({ movie, issueRequest, setIssueRequest}) {
-    const [isImgClick, setIsImgClick] = useState(false)
+function Card({ movie, issueRequest, setIssueRequest, isOpen, setIsOpen }) {
+
 
     function handleFavorite() {
         fetch(`http://localhost:3000/movies/${movie.id}`, {
@@ -43,17 +40,18 @@ function Card({ movie, issueRequest, setIssueRequest}) {
 
     return (
         <div className="card" style={cardStyle}>
-            <Link to={`/${movie.id}`} className="card-header">
+
+            <div className="card-header" onClick={() => setIsOpen(movie)}>
                 <h5 className="card-title">{movie.Title}</h5>
                 <img className="card-img-top" src={movie.Poster} alt="movie poster" />
-            </Link>
+            </div>
             <div className="card-body">
                 <button onClick={handleFavorite} type="button" className="btn btn-primary">{movie.favoriteMovie ? "Remove from Favorites" : "Add to Favorites"} </button>
                 <button onClick={handleHated} type="button" className="btn btn-primary">{movie.hatedMovie ? "Remove from Hated" : "Add to Hated"} </button>
             </div>
+
         </div>
     )
 }
-
 
 export default Card

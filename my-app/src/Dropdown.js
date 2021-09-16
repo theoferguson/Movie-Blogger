@@ -14,8 +14,8 @@ function Dropdown({setFilter, issueRequest, setIssueRequest}) {
             <select className="dropdown" onChange={handleSort}>
                 <option></option>
                 <option className="dropdown-item" >Alphabetical (A-Z)</option>
-                {/* <option className="dropdown-item" >Release Date</option>
-                <option className="dropdown-item" >Box Office ($)</option> */}
+                <option className="dropdown-item" >Recent Release Date</option>
+                <option className="dropdown-item" >Biggest Box Office ($)</option>
             </select>
         </label>
     )
