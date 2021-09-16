@@ -25,10 +25,20 @@ function MovieContainer({ movies, issueRequest, setIssueRequest }) {
             <ModalWrapper isOpen={isOpen} onClick={() => setIsOpen('')}>
                 {/* stopPropagation prevents the event from bubbling up and closing the window */}
                 <ModalWindow onClick={e => e.stopPropagation()}>
-                    <Box background="palegreen">
-                        <h4>{isOpen.Title}</h4>
-                        <p>{isOpen.Plot}</p>
-                        <Visual background="lavender" />
+                    <Box background="#007bff">
+                        <h1 className='display-4' >{isOpen.Title}</h1>
+                        <Visual>
+                            <strong>Plot:</strong> 
+                            <div>{isOpen.Plot}</div>
+                            <strong>Director:</strong>
+                            <div>{isOpen.Director}</div>
+                            <strong>Actors:</strong>
+                            <div>{isOpen.Actors}</div>
+                            <strong>Awards:</strong>
+                            <div>{isOpen.Awards}</div>
+                            <strong>Release Date:</strong>
+                            <div>{isOpen.Released}</div>
+                            </Visual>
                         <button onClick={() => setIsOpen('')}>Close Info</button>
                     </Box>
                 </ModalWindow>
@@ -59,7 +69,6 @@ const Box = styled.div`
   display: grid;
   place-items: center;
   padding: 1rem;
-  font-weight: bold;
 `;
 
 const Visual = styled.div`

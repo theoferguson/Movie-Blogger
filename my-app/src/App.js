@@ -31,7 +31,7 @@ function App() {
   }
 
   function handleSort(array) {
-    if (filter) {
+    if (filter === "Alphabetical (A-Z)") {
       array.sort(function (a, b) {
         const nameA = a.Title.toUpperCase(); // ignore upper and lowercase
         const nameB = b.Title.toUpperCase(); // ignore upper and lowercase
@@ -45,7 +45,35 @@ function App() {
         // names must be equal
         return 0;
       })
-    }
+    } else if (filter === "Recent Release Date") {
+      array.sort(function (a, b) {
+        const nameA = parseInt(a.Year); // ignore upper and lowercase
+        const nameB = parseInt(b.Year); // ignore upper and lowercase
+        if (nameA > nameB) {
+          return -1;
+        }
+        if (nameA < nameB) {
+          return 1;
+        }
+
+        // names must be equal
+        return 0;
+      })
+    } else if (filter === "Highest Rating") {
+      array.sort(function (a, b) {
+        const nameA = parseInt(a.Metascore); // ignore upper and lowercase
+        const nameB = parseInt(b.Metascore); // ignore upper and lowercase
+        if (nameA < nameB) {
+          return -1;
+        }
+        if (nameA > nameB) {
+          return 1;
+        }
+
+        // names must be equal
+        return 0;
+      })
+    };
   };
 
   return (

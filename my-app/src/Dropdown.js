@@ -15,7 +15,7 @@ function Dropdown({setFilter, issueRequest, setIssueRequest}) {
                 <option></option>
                 <option className="dropdown-item" >Alphabetical (A-Z)</option>
                 <option className="dropdown-item" >Recent Release Date</option>
-                <option className="dropdown-item" >Biggest Box Office ($)</option>
+                <option className="dropdown-item" >Highest Rating</option>
             </select>
         </label>
     )
