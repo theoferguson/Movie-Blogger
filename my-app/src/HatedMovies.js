@@ -2,7 +2,7 @@ import Card from './Card';
 
 function HatedMovies({movies, issueRequest, setIssueRequest}) {
     const eachHatedMovie = movies.map(movie => { 
-        if (movie.wouldRecommend === "Absolutely Not") {
+        if (movie.wouldRecommend === "Absolutely Not" && movie.watched) {
         return (
             <Card
                 key={movie.id}

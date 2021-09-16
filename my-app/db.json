@@ -42,9 +42,9 @@
       "favoriteMovie": false,
       "review": "",
       "starRating": "",
-      "wouldRecommend": "",
+      "wouldRecommend": "Absolutely Not",
       "hatedMovie": false,
-      "watched": true
+      "watched": false
     },
     {
       "Title": "Luca",
