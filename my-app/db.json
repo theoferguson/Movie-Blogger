@@ -39,7 +39,7 @@
       "Production": "Village Roadshow Prod., Silver Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": false,
+      "favoriteMovie": true,
       "review": "dfasdfdsfdsa",
       "starRating": "2 ⭐️",
       "wouldRecommend": "YES"
@@ -83,7 +83,7 @@
       "Production": "Pixar Animation Studios, Walt Disney Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": true
+      "favoriteMovie": false
     },
     {
       "Title": "Malignant",

@@ -58,13 +58,6 @@ function App() {
         setIssueRequest={setIssueRequest}
       />
       <Switch>
-        <Route path="/Movie-Blogger">
-          <MovieContainer
-            movies={displayMovies}
-            issueRequest={issueRequest}
-            setIssueRequest={setIssueRequest}
-          />
-        </Route>
 
         <Route exact path="/reviews">
           <ReviewList movies={displayMovies}
@@ -90,6 +83,15 @@ function App() {
             setIssueRequest={setIssueRequest}
           />
         </Route>
+
+        <Route exact path="/">
+          <MovieContainer
+            movies={displayMovies}
+            issueRequest={issueRequest}
+            setIssueRequest={setIssueRequest}
+          />
+        </Route>
+
       </Switch>
 
     </div>

@@ -1,20 +1,52 @@
 import { NavLink } from 'react-router-dom';
 import Search from './Search';
 
-function NavBar({handleSearch, filter, setFilter, issueRequest, setIssueRequest}) {
+function NavBar({ handleSearch, filter, setFilter, issueRequest, setIssueRequest }) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <NavLink className="navbar-brand" to="/Movie-Blogger">Home</NavLink>
-            <NavLink className="nav-link" to="/reviews">Reviews</NavLink>
-            <NavLink className="nav-link" to ="/my-movies">My Movies</NavLink>
-            <NavLink className="nav-link" to ="/hated-movies">Hated Movies</NavLink>
+            <NavLink
+                className="navbar-brand"
+                activeStyle={{
+                    background: "lightblue",
+                }}
+                exact to="/"
+            >
+                Home
+            </NavLink>
+            <NavLink
+                className="nav-link"
+                activeStyle={{
+                    background: "lightblue",
+                }}
+                to="/reviews"
+            >
+                Reviews
+            </NavLink>
+            <NavLink
+                className="nav-link"
+                activeStyle={{
+                    background: "lightblue",
+                }}
+                to="/my-movies"
+            >
+                My Movies
+            </NavLink>
+            <NavLink
+                className="nav-link"
+                activeStyle={{
+                    background: "lightblue",
+                }}
+                to="/hated-movies"
+            >
+                Hated Movies
+            </NavLink>
 
-            <Search 
-            handleSearch={handleSearch}
-            filter={filter}
-            setFilter={setFilter}
-            issueRequest={issueRequest}
-            setIssueRequest={setIssueRequest}
+            <Search
+                handleSearch={handleSearch}
+                filter={filter}
+                setFilter={setFilter}
+                issueRequest={issueRequest}
+                setIssueRequest={setIssueRequest}
             />
         </nav>
     )
