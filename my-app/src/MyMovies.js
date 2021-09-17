@@ -1,6 +1,6 @@
 import Card from './Card';
 
-function MyMovies({ movies, issueRequest, setIssueRequest }) {
+function MyMovies({ movies, issueRequest, setIssueRequest, isOpen, setIsOpen }) {
 
     const favoriteMovies = movies.map(movie => { 
         if (movie.wouldRecommend === "YES") {
@@ -10,6 +10,8 @@ function MyMovies({ movies, issueRequest, setIssueRequest }) {
                 movie={movie}
                 issueRequest={issueRequest}
                 setIssueRequest={setIssueRequest}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
             />
         )}
     })

@@ -1,6 +1,6 @@
 import Card from './Card';
 
-function HatedMovies({movies, issueRequest, setIssueRequest}) {
+function HatedMovies({movies, issueRequest, setIssueRequest, isOpen, setIsOpen}) {
     const eachHatedMovie = movies.map(movie => { 
         if (movie.wouldRecommend === "Absolutely Not" && movie.watched) {
         return (
@@ -9,6 +9,8 @@ function HatedMovies({movies, issueRequest, setIssueRequest}) {
                 movie={movie}
                 issueRequest={issueRequest}
                 setIssueRequest={setIssueRequest}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
             />
         )}
     })
