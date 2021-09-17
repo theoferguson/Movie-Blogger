@@ -142,7 +142,7 @@ function Review({ issueRequest, setIssueRequest, movie }) {
             </br>
             {review === "" || review === undefined ? null :
                 <Div>
-                    <h3>{Title}</h3>
+                    <h3>Reviewed ✓</h3>
                     <span>User Ratings: {movie.starRating}'s</span>
                     <br></br>
                     <br></br>
