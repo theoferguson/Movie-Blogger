@@ -1,13 +1,9 @@
 import { useState } from "react"
 
-function CardDetails ({issueRequest, setIssueRequest}){    
+function AddNewMovie ({issueRequest, setIssueRequest}){    
     const [formData, setFormData] = useState("");
     
-    function fetchInformation(fixedWord){
-        fetch(`http://www.omdbapi.com/?t=${fixedWord}&apikey=fcba9066`)
-        .then(resp=>resp.json())
-        .then(data => handleMoviePost(data))
-    }
+    
     const addCardForm = 
     <>
         <form>
@@ -36,8 +32,14 @@ function CardDetails ({issueRequest, setIssueRequest}){
             else {
             fixedWord += artistInput[i];
             } }
-          // console.log(fixedWord)
+
             fetchInformation(fixedWord)
+        }
+
+        function fetchInformation(fixedWord){
+            fetch(`http://www.omdbapi.com/?t=${fixedWord}&apikey=fcba9066`)
+            .then(resp=>resp.json())
+            .then(data => handleMoviePost(data))
         }
 
 
@@ -69,4 +71,4 @@ function CardDetails ({issueRequest, setIssueRequest}){
         </>
     )
 }
-export default CardDetails
+export default AddNewMovie;
