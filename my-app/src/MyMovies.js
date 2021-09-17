@@ -19,7 +19,7 @@ function MyMovies({ movies, issueRequest, setIssueRequest, isOpen, setIsOpen }) 
     console.log(favoriteMovies)
 
     return (
-        <div className="card-columns">
+        <div className="row">
             {favoriteMovies}
         </div>
     )

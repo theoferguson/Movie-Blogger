@@ -18,7 +18,7 @@ function HatedMovies({movies, issueRequest, setIssueRequest, isOpen, setIsOpen})
     
 
     return (
-        <div className="card-columns">
+        <div className="row">
             {eachHatedMovie}
         </div>
     )

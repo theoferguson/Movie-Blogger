@@ -18,7 +18,7 @@ function MovieContainer({ movies, issueRequest, setIssueRequest, isOpen, setIsOp
     })
 
     return (
-        <div className="card-columns">
+        <div className="row">
             {allMovies}
         </div>
     )

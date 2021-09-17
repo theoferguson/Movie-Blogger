@@ -123,11 +123,10 @@ function App() {
         </Route>
       </Switch>
       <ModalWrapper isOpen={isOpen} onClick={() => setIsOpen('')}>
-                {/* stopPropagation prevents the event from bubbling up and closing the window */}
                 <ModalWindow onClick={e => e.stopPropagation()}>
                     <Box background="#007bff">
-                        <h1 className='display-4' >{isOpen.Title}</h1>
-                        <Visual>
+                        <h1 className='modal-title' >{isOpen.Title}</h1>
+                        <Visual className="modal-body">
                             <strong>Plot:</strong> 
                             <div>{isOpen.Plot}</div>
                             <strong>Director:</strong>
