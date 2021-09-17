@@ -42,7 +42,7 @@
       "favoriteMovie": false,
       "review": "",
       "starRating": "",
-      "wouldRecommend": "Absolutely Not",
+      "wouldRecommend": "YES",
       "hatedMovie": false,
       "watched": false
     },
@@ -85,7 +85,11 @@
       "Production": "Pixar Animation Studios, Walt Disney Pictures",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": false
+      "favoriteMovie": false,
+      "watched": false,
+      "review": "",
+      "starRating": "",
+      "wouldRecommend": ""
     },
     {
       "Title": "Malignant",
@@ -113,7 +117,8 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
-      "favoriteMovie": false
+      "favoriteMovie": false,
+      "watched": false
     },
     {
       "Title": "Barry Lyndon",
@@ -231,8 +236,8 @@
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
-      "watched": true,
-      "review": "well well well mr powers",
+      "watched": false,
+      "review": "",
       "starRating": "",
       "wouldRecommend": ""
     },
@@ -274,7 +279,11 @@
       "BoxOffice": "$315,710,750",
       "Production": "New Line Cinema, WingNut Films, Saul Zaentz Company",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "watched": false,
+      "review": "This movie was amazing!!!",
+      "starRating": "5 ⭐️",
+      "wouldRecommend": "YES"
     },
     {
       "Title": "Apocalypse Now",
@@ -314,7 +323,11 @@
       "BoxOffice": "$83,471,511",
       "Production": "Zoetrope Studios",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "watched": false,
+      "review": "",
+      "starRating": "",
+      "wouldRecommend": ""
     },
     {
       "Title": "Pulp Fiction",
@@ -475,7 +488,8 @@
       "BoxOffice": "$27,545,445",
       "Production": "40 Acres &amp; A Mule Filmworks",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "watched": false
     },
     {
       "Title": "Inception",
@@ -515,7 +529,8 @@
       "BoxOffice": "$292,576,195",
       "Production": "Syncopy, Warner Bros.",
       "Website": "N/A",
-      "Response": "True"
+      "Response": "True",
+      "watched": false
     },
     {
       "Title": "The Prestige",

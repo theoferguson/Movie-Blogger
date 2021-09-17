@@ -14,9 +14,9 @@ function ReviewList({ issueRequest, setIssueRequest, movies }) {
         }
     })
     return (
-        <>
+        <div className="card-columns">
             {eachReview}
-        </>
+        </div>
     )
 };
 
