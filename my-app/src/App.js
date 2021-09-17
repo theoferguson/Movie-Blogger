@@ -122,8 +122,8 @@ function App() {
           />
         </Route>
       </Switch>
-      <ModalWrapper isOpen={isOpen} onClick={() => setIsOpen('')}>
-                <ModalWindow onClick={e => e.stopPropagation()}>
+      <ModalWrapper  isOpen={isOpen} onClick={() => setIsOpen('')}>
+                <ModalWindow  onClick={e => e.stopPropagation()}>
                     <Box background="#007bff">
                         <h1 className='modal-title' >{isOpen.Title}</h1>
                         <Visual className="modal-body">
