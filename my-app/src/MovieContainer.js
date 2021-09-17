@@ -1,6 +1,7 @@
 import Card from './Card';
 import { useState } from 'react';
 import styled, { css } from "styled-components";
+import CardDetails from './CardDetails';
 
 function MovieContainer({ movies, issueRequest, setIssueRequest }) {
     const [isOpen, setIsOpen] = useState('');
