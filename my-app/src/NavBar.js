@@ -40,6 +40,15 @@ function NavBar({ handleSearch, filter, setFilter, issueRequest, setIssueRequest
             >
                 Hated Movies
             </NavLink>
+            <NavLink
+                className="nav-link"
+                activeStyle={{
+                    background: "lightblue",
+                }}
+                to="/search-movies"
+            >
+                Search for Movies
+            </NavLink>
 
             <Search
                 handleSearch={handleSearch}

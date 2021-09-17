@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import MyMovies from './MyMovies';
 import ReviewList from './ReviewList';
 import HatedMovies from './HatedMovies';
+import MovieApiSearch from './MovieApiSearch';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -91,7 +92,9 @@ function App() {
             issueRequest={issueRequest}
             setIssueRequest={setIssueRequest} />
         </Route>
-
+        <Route exact path="/search-movies">
+          <MovieApiSearch />
+        </Route>
         <Route exact path="/hated-movies">
           <HatedMovies
             movies={displayMovies}
